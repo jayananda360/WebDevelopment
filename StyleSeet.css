@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#nav-bar{
+  padding: 0px 50px 0px 50px;
+  background-image: linear-gradient(to right , rgb(212, 212, 212), rgb(88, 88, 88));
+}
+#navbarSupportedContent ul li{
+  font-weight: bold;
+  padding: 5px;
+  
+}
+#navbarSupportedContent li a{
+  color: #000000;
+  
+}
+#navbarSupportedContent li a:hover{
+  color: aliceblue;
+  background: black;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+#btn{
+  font-weight: bold;
+}
+.carousel-inner img{
+  height: 80vh;
+}
+.content{
+  padding: 10px 50px 0px 50px;
+  background: linear-gradient(to right bottom, rgb(146, 100, 255), rgb(253, 108, 64));
+  color: rgb(0, 0, 80);
+}
+.active{
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.bankimg img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+  }
+  .headd h1 {
+    font-size: 45px;
+    text-align: center;
+    color: #000000;
+  }
+ 
+  .headd h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #000000;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  .table tr {
+    color:white;
+  }
+  .py-2 {
+    align-content: center;
+  }
+  .social a{
+    color: #000000;
+  }
